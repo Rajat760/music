@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+    background-color: rgb(2, 147, 113);
+    flex-wrap: wrap;
+}
+
+nav img {
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li {
+    
+    list-style: none;
+    cursor: pointer;
+    margin: 0 30px;
+    background-color: red;
+    padding: 10px 18px;
+    border: 2px black solid;
+    box-shadow: 5px 10px ;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    height: 100vh;
+ background: black;
+   /* z-index: -1; */
+   position: relative;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+
+
+.main h1 {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 6.8rem;
+    /* background-color: red; */
+    color: white;
+}
+
+.stats {
+    height: 95vh;
+    background-color: brown;
+    border: white dotted 2px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 5rem;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 207, 169);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: end;
+    background-color: palevioletred;
+    /* z-index: -5; */
+    position: relative;
+    padding: 20px 0;
+}
+
+.main-1 {
+    width: 1000px;
+    height: 500px;
+    box-sizing: 0px 0px 3px grey;
+    background-color: blanchedalmond;
+    /* margin-top: 100px;
+    margin: auto; */
+    position: relative;
+    overflow: hidden;
+    /* z-index: -1; */
+
+}
+
+.slide {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.nav-1, .nav-2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+.nav-1 {
+    left: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.nav-2 {
+    right: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.full {
+    background-color: rgb(179, 234, 244);
+    height: 100vh;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head h1 {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
